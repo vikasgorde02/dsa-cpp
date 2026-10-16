@@ -1,6 +1,4 @@
 #include<iostream>
-//#include <stdio.h>
-//#include <stdlib.h>
 using namespace std;
 class Node
 {
@@ -39,7 +37,6 @@ void printlist(Node* node)
 			cout<<"->";
 		}
 		node = node->next;
-	//	cout<<"\n";
 	}
 }
 	int main()
@@ -55,4 +52,5 @@ void printlist(Node* node)
 	return 0;	
 
 }
+// o/p=1->2->3->4->5->6
 
